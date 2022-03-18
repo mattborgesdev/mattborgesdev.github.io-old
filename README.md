@@ -1,2 +1,7 @@
 # mattborgesdev.github.io
-my website
+
+<img src="/img/website-in-desktop" width="550" align="left">
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-in-desktop.png" width="550" align="left">
+
+
+<img src="/img/website-in-smartphone" width="330" align="right">
