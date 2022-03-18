@@ -20,9 +20,9 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
 
 ## Demonstração
 
-<div style="display: block">
+<div style="display: inline-block">
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="540px" align="left">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="275px" align="right">
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="280px" align="right">
 </div>
 
 <br/>
