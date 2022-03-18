@@ -9,8 +9,8 @@
 O objetivo deste projeto é iniciar minha presença digital na internet. Nele conterá meu portfólio e informações sobre mim, e sua confecção servirá como uma demonstração das minhas skills ;)
 
 <div style="align: right">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/blob/main/img/website-in-desktop.png" max-width="475px" height="250px"/>
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/blob/main/img/website-in-smartphone.png" max-width="200px" height="250px"/>
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-in-desktop.png" max-width="475px" height="250px"/>
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-in-smartphone.png" max-width="200px" height="250px"/>
 </div>
 
 ## Stack utilizada
@@ -21,6 +21,13 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40px"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40px"/>
 </div>
+
+## Funcionalidades
+
+- Home com particlesjs
+- Scroll suave
+- Menu dropdown em dispositivos móveis
+- Modal ao clicar em "detalhes"
 
 ## Licença
 
