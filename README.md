@@ -21,10 +21,15 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
 ## Demonstração
 
 <div style="display: block">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="450px" align="left">
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="500px" align="left">
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="275px" align="right">
 </div>
+
+
+<div style="display: block">
 
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+</div>
