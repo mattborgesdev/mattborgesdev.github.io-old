@@ -9,8 +9,8 @@
 O objetivo deste projeto é iniciar minha presença digital na internet e nele conterá meu portfólio e informações sobre mim. Sua confecção servirá como uma demonstração das minhas skills ;) A interface foi toda construída no Figma, pensada carinhosamente, e você pode conferirr o style guide clicando <b><a href=https://raw.githubusercontent.com/mattborgesdev/mattborgesdev.github.io/main/img/style-guide.png target="_blank">aqui</a>.</b>
 
 <div style="align: right">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-in-desktop.png" max-width="475px" height="250px"/>
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-in-smartphone.png" max-width="200px" height="250px"/>
+    <img src="https://raw.githubusercontent.com/mattborgesdev/mattborgesdev.github.io/main/img/website-in-desktop.png" max-width="475px" height="250px"/>
+    <img src="https://raw.githubusercontent.com/mattborgesdev/mattborgesdev.github.io/main/img/website-in-smartphone.png" max-width="200px" height="250px"/>
 </div>
 
 ## Stack utilizada
@@ -38,6 +38,6 @@ O objetivo deste projeto é iniciar minha presença digital na internet e nele c
 ## Demonstração
 
 <div style="display: block">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-full-desktop.png" width="530px" align="left">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-full-smartphone.png" width="220px" align="right">
+    <img src="https://raw.githubusercontent.com/mattborgesdev/mattborgesdev.github.io/main/img/website-full-desktop.png" width="530px" align="left">
+    <img src="https://raw.githubusercontent.com/mattborgesdev/mattborgesdev.github.io/main/img/website-full-smartphone.png" width="220px" align="right">
 </div>
