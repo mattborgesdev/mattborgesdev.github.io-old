@@ -9,8 +9,6 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-smartphone.png" max-width="200px" height="250px"/>
 </div>
 
-
-
 ## Stack utilizada
 
 <div style="display: inline-block">
@@ -22,9 +20,9 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
 
 ## Demonstração
 
-<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" max-width="475px" align="left">
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" min-width="470px" align="left">
 
-<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" max-width="200px" align="right">
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" min-width="200px" align="right">
 
 ## Licença
 
