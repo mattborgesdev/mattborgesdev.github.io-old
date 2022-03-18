@@ -4,7 +4,6 @@
 
 <div style="display: inline-block">
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-desktop.png" width="500px" align="left"/>
-
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-smartphone.png" width="300px" align="right"/>
 </div>
 
