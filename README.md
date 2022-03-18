@@ -2,10 +2,9 @@
 
 <a href="linkedin.com/in/mattborgesdev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-<div style="display: inline-block">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-desktop.png" width="500px" align="left"/>
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-smartphone.png" width="300px" align="right"/>
-</div>
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-desktop.png" width="475px" align="left"/>
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-smartphone.png" width="275px" align="right"/>
+
 
 O objetivo deste projeto é iniciar minha presença digital na internet. Nele conterá meu portfólio e informações sobre mim.
 
