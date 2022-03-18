@@ -2,11 +2,13 @@
 
 <a href="linkedin.com/in/mattborgesdev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-desktop.png" max-width="475px" height="250px" align="left"/>
-<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-smartphone.png" max-width="200px" height="250px" align="right"/>
-
-
 O objetivo deste projeto é iniciar minha presença digital na internet. Nele conterá meu portfólio e informações sobre mim.
+
+<div style="align: right">
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-desktop.png" max-width="475px" height="250px"/>
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-smartphone.png" max-width="200px" height="250px"/>
+</div>
+
 
 
 ## Stack utilizada
@@ -20,9 +22,9 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
 
 ## Demonstração
 
-<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="500px" align="left">
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" max-width="475px" align="left">
 
-<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="300px" align="right">
+<img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" max-width="200px" align="right">
 
 ## Licença
 
