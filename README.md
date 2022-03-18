@@ -6,7 +6,7 @@
 
 ## Descrição
 
-O objetivo deste projeto é iniciar minha presença digital na internet. Nele conterá meu portfólio e informações sobre mim, e sua confecção servirá como uma demonstração das minhas skills ;)
+O objetivo deste projeto é iniciar minha presença digital na internet e nele conterá meu portfólio e informações sobre mim. Sua confecção servirá como uma demonstração das minhas skills ;) A interface foi toda construída no Figma, pensada carinhosamente, e você pode conferirr o style guide clicando <b><a href=https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/style-guide.png>aqui</a>.</b>
 
 <div style="align: right">
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/main/img/website-in-desktop.png" max-width="475px" height="250px"/>
