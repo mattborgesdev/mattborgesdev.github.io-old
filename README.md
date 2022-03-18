@@ -2,7 +2,11 @@
 
 <a href="linkedin.com/in/mattborgesdev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-O objetivo deste projeto é iniciar minha presença digital na internet. Nele conterá meu portfólio e informações sobre mim.
+<hr/>
+
+## Descrição
+
+O objetivo deste projeto é iniciar minha presença digital na internet. Nele conterá meu portfólio e informações sobre mim, e sua confecção servirá como uma demonstração das minhas skills ;)
 
 <div style="align: right">
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-in-desktop.png" max-width="475px" height="250px"/>
@@ -18,21 +22,15 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="30px"/>
 </div>
 
-## Demonstração
-
-<div style="display: block">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="530px" align="left">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="200px" align="right">
-</div>
-
-<br/>
-<hr/>
-<br/>
-
-<div style="display: block">
-
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<hr/>
+
+## Demonstração
+
+<div style="display: block">
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="530px" align="left">
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="220px" align="right">
 </div>
