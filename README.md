@@ -22,7 +22,7 @@ O objetivo deste projeto é iniciar minha presença digital na internet. Nele co
 
 <div style="display: block">
     <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-desktop.png" width="530px" align="left">
-    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="230px" align="right">
+    <img src="https://github.com/mattborgesdev/mattborgesdev.github.io/blob/master/img/website-full-smartphone.png" width="200px" align="right">
 </div>
 
 <br/>
