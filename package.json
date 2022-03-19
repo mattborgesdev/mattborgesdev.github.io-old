@@ -1,0 +1,19 @@
+{
+  "name": "mattborgesdev",
+  "version": "1.0.0",
+  "description": "<a href=\"linkedin.com/in/mattborgesdev/\" target=\"_blank\"><img src=\"https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white\" target=\"_blank\"></a>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattborgesdev/mattborgesdev.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattborgesdev/mattborgesdev.github.io/issues"
+  },
+  "homepage": "https://github.com/mattborgesdev/mattborgesdev.github.io#readme"
+}
