@@ -1,11 +1,41 @@
-body, h1, h2, p, ul, li, a {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+
+    /* --TIPOGRAFIA-- */
+    --fs-1: "Lato", Helvetica, Arial;
+    --fs-2: "Nunito", sans-serif;
+
+    /* --CORES-- */
+    --p1: #042520;
+    --p2-light: #084A40;
+    --p3-dark: #021210;
+
+    --s1: #b9d2d4;
+    --s2-light: #D9E7E8;
+    --s3-dark: #4A7578;
+
+    --b1: #0F4856;
+    --c1: #FAFAFA;
+    --c2: #F5F5F5;
+    --c3: #DBDBDB;
+    --c4: #B5B5B5;
+    --c5: #7A7A7A;
+    --c6: #4A4A4A;
+    --c7: #363636;
+    --c8: #242424;
+    --c9: #121212;
+
+    --gradient-1: linear-gradient(180deg, #4A7578 0%, rgba(74, 117, 120, 0.5) 67.58%);
+}
+
+body, h1, h2, p, ul, li, a, span{
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    font-family: "Nunito", Helvetica, Arial;
-    color: #222222;
+    font-family: var("--fs-1"), "Nunito", Helvetica, Arial;
 }
 
 ul {
@@ -24,3 +54,66 @@ img {
 * {
     box-sizing: border-box;
 }
+
+header {
+    background-image: url(/img/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    z-index: 2;
+}
+
+/* --NAV-- */
+
+.nav ul {
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    padding-top: 30px;
+}
+
+.nav__item:not(:last-child):after {
+    display: inline-block;
+    content: '|';
+    width: 1px;
+    font-size: 2em;
+    background: var(--c6);
+    margin-left: 15px;
+}
+
+.nav__item a {
+    font-size: 1.5em;
+    color: var(--c3);
+    font-weight: 300;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+/* --/NAV-- */
+
+.home__presentation {
+    font-size: 1.25em;
+    color: var(--c3);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    border: 2px solid var(--c5);
+    text-align: center;
+    width: 130px;
+    margin-top: -2px;
+    background: var(--gradient-1);
+    font-variant: small-caps;
+}
+
+.btn-bordered {
+    background: transparent;
+}
+
