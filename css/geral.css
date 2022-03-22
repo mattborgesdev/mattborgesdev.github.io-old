@@ -104,13 +104,21 @@ header {
     padding-top: 30px;
 }
 
-.nav__item:not(:last-child):after {
+.nav__item:not(:first-child, :last-child):before {
     display: inline-block;
     content: '|';
     width: 1px;
     font-size: 2em;
     background: var(--c5);
     margin-left: 15px;
+}
+
+.nav__item:nth-child(1):before {
+    display: inline-block;
+    content: '|';
+    width: 1px;
+    font-size: 2em;
+    background: transparent;
 }
 
 .nav__item a {
