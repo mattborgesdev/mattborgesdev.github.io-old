@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus Borges DEV</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Matheus Borges DEv</title>
 </head>
 <body>
     <header>
         <nav class="nav">
-            <a class="nav__item" href=#>Sobre</a>
-            <a class="nav__item" href=#>Skills</a>
-            <a class="nav__item" href=#>Portfolio</a>
-            <a class="nav__item" href=#>Contato</a>
-            <a class="nav__item" href=#><span class="cta btn-bordered">Resume</span></a>
+            <ul>
+                <li class="nav__item"><a href=#>Sobre</a></li>
+                <li class="nav__item"></li><a href=#>Skills</a>
+                <li class="nav__item"></li><a href=#>Portfolio</a>
+                <li class="nav__item"></li><a href=#>Contato</a>
+                <li class="nav__item"></li><a href=#><span class="cta btn-bordered">Resume</span></a>
+            </ul>
         </nav>
     </header>
     <section class="home__bg">
@@ -121,8 +124,12 @@
         <div class="container">
             <h2>Contato</h2>
             <div class="contato__left">
-                <form action="#"></form>
-                <button>Enviar</button>
+                <form name="formContact" action="#">
+                    <input type="text" name="firstName" id="firstName">
+                    <input type="text" name="email" id="email">
+                    <input type="text" name="message" id="message">
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
             <div class="contato__right">
                 <p>Gostou do que viu? Que tal entrar em contato comigo para uma conversa? Ficaria muito feliz em falar com você!</p>
