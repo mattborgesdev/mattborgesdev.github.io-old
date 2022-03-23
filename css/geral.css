@@ -14,6 +14,7 @@
     --s1: #b9d2d4;
     --s2-light: #D9E7E8;
     --s3-dark: #4A7578;
+    --s4: #0F4856;
 
     --b1: #0F4856;
     --c1: #FAFAFA;
@@ -301,3 +302,160 @@ header {
     font-size: 1.125em;
     font-weight: 300;
 }
+
+/* --/SKILLS-- */
+
+/* --PORTFOLIO-- */
+
+.portfolio__bg {
+    background-color: var(--p3-dark);
+    height: 1500px;
+}
+
+.portfolio__bg h2 {
+    color: var(--c3);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio-three-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.portfolio__card--left {
+    max-width: 550px;
+}
+
+.portfolio__card--left h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.25em;
+    font-weight: 500;
+    color: var(--c2);
+    margin-bottom: 10px;
+}
+
+.portfolio__card--left p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--c3);
+    max-width: 450px;
+}
+
+.portfolio__card--right {
+    max-width: 630px;
+}
+
+.portfolio__card--left .btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: var(--s1);
+    padding: 10px 10px 10px 10px;
+    width: 160px;
+}
+
+.portfolio__card--left .btn-bordered {
+    border: 2px solid var(--s1);
+    background: transparent;
+}
+
+.portfolio__separator {
+    display: inline-block;
+    margin-top: -2px;
+}
+
+/* --/PORTFOLIO-- */
+
+/* --CONTATO-- */
+
+.contato__bg {
+    background-color: var(--s4);
+    height: 800px;
+}
+
+.contato__bg h2 {
+    color: var(--c3);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contato__content {
+    display: flex;
+}
+
+.contato__left {
+    max-width: 550px;
+}
+
+.contato__right {
+    max-width: 630px;
+}
+
+.contato__right p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--c3);
+    font-size: 1.5em;
+    padding-bottom: 40px;
+}
+
+.contato__icon {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    padding-bottom: 40px;
+    color: var(--c1);
+    font-size: 1.5em;
+}
+
+.contato__icon img {
+    padding-right: 40px;
+}
+
+/* --/CONTATO-- */
+
+/* --FOOTER-- */
+
+.footer__bg {
+    background-color: #121212;
+    height: 250px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--c3);
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+}
+
+.footer__social-media {
+    padding-top: 25px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.footer__social-media img {
+    padding-right: 26px;
+}
+
+/* --/FOOTER-- */
