@@ -59,7 +59,7 @@ header {
     background-image: url(/img/home-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1100px;
+    height: 1050px;
     z-index: 2;
 }
 
@@ -88,6 +88,10 @@ header {
     background: transparent;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
 /* --NAV-- */
 
@@ -122,15 +126,16 @@ header {
 }
 
 .nav__item a {
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.5em;
     color: var(--c3);
-    font-weight: 300;
+    font-weight: 500;
     padding: 10px;
     margin-left: 15px;
 }
 
 .nav__item:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 /* --/NAV-- */
@@ -148,20 +153,26 @@ header {
 }
 
 .home__presentation h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 2.75em;
     padding-bottom: 40px;
 }
 
 .home__presentation h2 {
     max-width: 350px;
+    font-family: 'Nunito Sans', sans-serif;
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 100px;
 }
 
 .home__cta .btn {
     margin-right: 10px;
     margin-left: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .home__cta .btn-bordered {
@@ -171,6 +182,7 @@ header {
 
 .home__arrow-down {
     margin-top: 450px;
+    font-family: 'Nunito Sans', sans-serif;
     text-align: center;
 }
 
@@ -185,3 +197,107 @@ header {
 }
 
 /* --/HOME-- */
+
+/* --SOBRE-- */
+
+.about__bg {
+    background-color: #000000;
+    height: 800px;
+}
+
+.about__bg h2 {
+    color: var(--c3);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about__content {
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__left {
+    max-width: 550px;
+}
+
+.about__left img {
+    max-width: 450px;
+}
+
+.about__right {
+    max-width: 550px;
+}
+
+.about__right p {
+    color: var(--c4);
+    font-size: 1.5em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    padding-left: 32px;
+    padding-bottom: 20px;
+}
+
+.about__social-media {
+    padding: 30px 32px 0 32px;
+    padding-top: 30px;
+    padding-right: 32px;
+    display: flex;
+}
+
+.about__social-media img {
+    padding-right: 32px;
+}
+
+/* --/SOBRE-- */
+
+/* --SKILLS-- */
+
+.skills__bg {
+    background-color: var(--p2-light);
+    height: 800px;
+}
+
+.skills__bg h2 {
+    color: var(--c3);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills-six-cards {
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__card {
+    flex: 1 1 300px;
+    padding-bottom: 30px;
+    margin: 20px 10px;
+}
+
+.skills__card > h3 {
+    color: var(--c3);
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.skills__card > p {
+    color: var(--c3);
+    font-size: 1.125em;
+    font-weight: 300;
+}
