@@ -1,6 +1,10 @@
+import outsideClick from "./outsideclick.js";
+
+outsideClick();
+
 export default function initMenuMobile() {
 
-    console.log('js funcionando!!');
+    console.log('initMenuMobile funcionando!!');
 
 }
 
