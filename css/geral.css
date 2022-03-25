@@ -72,7 +72,7 @@ header {
     height: 50px;
     margin-top: -2px;
     background: var(--gradient-1);
-    font-variant: small-caps;
+    text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 700;
     color: var(--c2);
@@ -87,6 +87,7 @@ header {
 .btn-bordered {
     border: 2px solid var(--c5);
     background: transparent;
+    font-weight: bold;
 }
 
 .container {
@@ -402,14 +403,61 @@ header {
 
 .contato__content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contato__left {
-    max-width: 550px;
+    max-width: 450px;
+}
+
+.contato__left label {
+    display: none;
+}
+
+.contato__left form{
+    display: block;
+    width: 420px;
+    background-color: transparent;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.contato__left input{
+    display: block;
+    width: 100%;
+    border: 3px solid var(--c4);
+    background-color: transparent;
+    color: var(--c3);
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.contato__left textarea{
+    display: block;
+    max-width: 450px;
+    width: 100%;
+    height: 200px;
+    border: 3px solid var(--c4);
+    background-color: transparent;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--c3);
+    font-size: 1.5em;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+
+.contato__left button {
+    margin-top: 10px;
+    border: 3px solid var(--c4);
+    color: var(--c4);
+    cursor: pointer;    
 }
 
 .contato__right {
-    max-width: 630px;
+    max-width: 650px;
 }
 
 .contato__right p {

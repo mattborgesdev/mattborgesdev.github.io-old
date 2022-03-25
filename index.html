@@ -14,10 +14,10 @@
     <header>
         <nav class="nav">
             <ul>
-                <li class="nav__item"><a href="#">Sobre</a></li>
-                <li class="nav__item"><a href="#">Skills</a></li>
-                <li class="nav__item"><a href="#">Portfolio</a></li>
-                <li class="nav__item"><a href="#">Contato</a></li>
+                <li class="nav__item"><a href="#about">Sobre</a></li>
+                <li class="nav__item"><a href="#skills">Skills</a></li>
+                <li class="nav__item"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav__item"><a href="#contato">Contato</a></li>
                 <li class="nav__item"><a class="btn btn-bordered" target="_blank" href="https://drive.google.com/file/d/1EgQ2oBxehY0Se3K-5NTyS0smY3PePTFJ/view?usp=sharing">Resume</a></li>
             </ul>
         </nav>
@@ -29,12 +29,12 @@
                 <a class="btn btn-bordered" target="_blank" href="https://github.com/mattborgesdev">Github</a>
             </div>
             <div class="home__arrow-down">
-                <a href="#"><span class="home__arrow-down--text">Sobre mim</span> <br/>
+                <a href="#about"><span class="home__arrow-down--text">Sobre mim</span> <br/>
                 <img src="/img/arrow-down.svg" alt="Seta para baixo"></a>
             </div>
         </section>
     </header>
-    <section class="about__bg">
+    <section class="about__bg" id="about">
         <div class="container">
             <h2>Sobre</h2>
             <div class="about__content">
@@ -42,8 +42,8 @@
                     <img src="/img/foto.png" alt="Foto de Matheus Borges"/>
                 </div>
                 <div class="about__right">
-                    <p>Sou um Desenvolvedor Frontend e UX/UI Designer focado na criação de aplicativos web de alta qualidade. Possuo formação como Técnico em Informática pela Escola Técnica de Brasília e sou uma pessoa organizada, determinada, curiosa e intuitiva.</p>
-                    <p>Atualmente, estou me dedicando de forma integral a estudar programação e ingressarei a partir de Junho no curso de Engenharia de Software da Universidade de Brasília.</p>
+                    <p>Sou um Desenvolvedor Frontend e UX/UI Designer focado na criação de aplicativos web de alta qualidade. Possuo formação como Técnico em Informática pela Escola Técnica de Brasília e iniciarei em junho o 1º semestre de Engenharia de Software na Universidade de Brasília.</p>
+                    <p>Atualmente, estou me dedicando a estudar programação, especialmente JavaScript, e sou uma pessoa organizada, determinada, curiosa e intuitiva.</p>
                     <div class="about__social-media">
                         <a href="https://github.com/mattborgesdev" target="_blank"><img src="/img/icon-github.svg" alt="github icon"></a>
                         <a href="https://linkedin.com/in/mattborgesdev/" target="_blank"><img src="/img/icon-linkedin.svg" alt="linkedin icon"></a>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </section>
-    <section class="skills__bg">
+    <section class="skills__bg" id="skills">
         <div class="container">
             <h2>Skills</h2>
             <div class="skills-six-cards">
@@ -90,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio__bg">
+    <section class="portfolio__bg" id="portfolio">
         <div class="container">
             <h2>Portfolio</h2>
             <div class="portfolio-three-cards">
@@ -127,17 +127,23 @@
             </div>
         </div>
     </section>
-    <section class="contato__bg">
+    <section class="contato__bg" id="contato">
         <img src="/img/portfolio_divisor.png" class="portfolio__separator" alt="divisor de conteúdo">
         <div class="container">
             <h2>Contato</h2>
             <div class="contato__content">
                 <div class="contato__left">
                     <form name="formContact" action="#">
-                        <input type="text" name="firstName" id="firstName">
-                        <input type="text" name="email" id="email">
-                        <input type="text" name="message" id="message">
-                        <button type="submit">Enviar</button>
+                        <label for="nome">Nome</label>
+                        <input id="nome" name="nome" type="text" placeholder="Nome"required>
+
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="text" placeholder="E-mail" required>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
+                        
+                        <button id ="enviar" name="enviar" class="btn btn-bordered" type="submit">Enviar</button>
                     </form>
                 </div>
                 <div class="contato__right">
