@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script>document.documentElement.className += ' js';</script>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet">
     <title>Matheus Borges DEv</title>
 </head>
 <body>
     <header>
         <nav class="nav">
-            <ul class="dropdown-menu">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <ul data-menu="list" id="menu">
                 <li class="nav__item"><a href="#about">Sobre</a></li>
                 <li class="nav__item"><a href="#skills">Skills</a></li>
                 <li class="nav__item"><a href="#portfolio">Portfolio</a></li>

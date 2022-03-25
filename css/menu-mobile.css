@@ -1,0 +1,51 @@
+[data-menu="button"] {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .js [data-menu="button"] {
+        display: flex;
+        background: transparent;
+        border: none;
+        padding: .5rem 1rem;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #DBDBDB;
+        cursor: pointer;
+        margin: 10px;
+        align-items: center;
+        position: relative;
+        z-index: 300;
+    }
+    .js [data-menu="button"]::before {
+        margin-right: 4px;
+        content: '';
+        display: inline-block;
+        height: 2px;
+        width: 12px;
+        background: #DBDBDB;
+        box-shadow: 0 4px #DBDBDB, 0 -4px #DBDBDB;
+    }
+    .js [data-menu="list"] {
+        /* display: none; */
+        position: absolute;
+        background: #406568;
+        width: 100vw;
+        padding: 60px 0 20px 0;
+        top: 0;
+        z-index: 200;
+        box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    }
+    .js #menu {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .js #menu li {
+        padding-bottom: 10px;
+    }
+    .js #menu li::before {
+        content: '';
+    }
+}
