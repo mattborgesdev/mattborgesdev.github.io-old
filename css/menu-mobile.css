@@ -22,14 +22,22 @@
         margin-right: 4px;
         content: '';
         display: inline-block;
-        height: 2px;
-        width: 12px;
-        background: #DBDBDB;
-        box-shadow: 0 4px #DBDBDB, 0 -4px #DBDBDB;
+        height: 4px;
+        width: 28px;
+        background: #F5F5F5;
+        box-shadow: 0 10px #F5F5F5, 0 -10px #F5F5F5;
     }
-    .js [data-menu="button"].active::before {
+    /* .js [data-menu="button"].active::before {
         transform: rotate(90deg);
         transition: transform .3s;        
+    } */
+    .js [data-menu="button"].active::before, .js [data-menu="button"].active::after {
+        position: absolute;
+        left: 15px;
+        content: 'FECHAR';
+        width: 3px;
+        HEIGHT: 0pX;
+        box-shadow: none;
     }
     .js [data-menu="list"] {
         display: none;
