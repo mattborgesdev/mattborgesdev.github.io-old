@@ -35,9 +35,9 @@
         position: absolute;
         left: 15px;
         content: 'FECHAR';
-        width: 3px;
-        HEIGHT: 0pX;
-        box-shadow: none;
+        font-size: 1.25em;
+        width: 0px;
+        height: 0pX;
     }
     .js [data-menu="list"] {
         display: none;
